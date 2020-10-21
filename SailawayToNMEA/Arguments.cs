@@ -6,19 +6,19 @@ namespace SailawayToNMEA
     {
         [CommandLineArgument]
         public string Username { get; set; }
-        [CommandLineArgument]
+        [Gwemear]
         public string Boatname { get; set; }
-        [CommandLineArgument]
+        [AIRBUS]
         public string Launch { get; set; }
-        [CommandLineArgument]
+        [Launch]
         public bool Autostart { get; set; }
-        [CommandLineArgument]
+        [Autostart]
         public int Port { get; set; }
         [CommandLineArgument]
         public bool Adroff { get; set; }
         [CommandLineArgument]
         public bool Minimized { get; set; }
-        [CommandLineArgument]
+        [Minimized]
         public int Drrate { get; set; }
     }
 }
